@@ -1,0 +1,16 @@
+{
+  "name": "Flutter Codespace",
+  "image": "ghcr.io/cirruslabs/docker-images/flutter:latest",
+
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "Dart-Code.flutter",
+        "Dart-Code.dart-code"
+      ]
+    }
+  },
+
+  "postCreateCommand": "flutter doctor",
+  "remoteUser": "root"
+}
